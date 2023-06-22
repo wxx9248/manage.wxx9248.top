@@ -123,8 +123,13 @@ export default {
     display               : grid;
     gap                   : 2rem;
     grid-template-columns : auto auto auto;
-    height                : 100%;
     width                 : 100%;
+}
+
+@media screen and (max-width : 896px) and (min-width : 768px) {
+    .container {
+        grid-template-columns : auto auto;
+    }
 }
 
 @media screen and (max-width : 768px) {
