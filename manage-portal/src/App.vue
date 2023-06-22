@@ -88,13 +88,6 @@ export default {
                 "text": "",
                 "url": "synapse-admin",
                 "image": matrixLogoURL
-            },
-            {
-                "title": "Xray Server Management",
-                "subtitle": "X-UI",
-                "text": "",
-                "url": "X-UI",
-                "image": projectXLogoURL
             }
         ],
         eggCount: 0
