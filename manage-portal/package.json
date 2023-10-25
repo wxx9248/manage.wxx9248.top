@@ -12,7 +12,7 @@
         "material-design-icons-iconfont": "^6.7.0",
         "roboto-fontface": "*",
         "vue": "^3.3.7",
-        "vuetify": "^3.3.22",
+        "vuetify": "^3.3.23",
         "webfontloader": "^1.0.0"
     },
     "devDependencies": {
