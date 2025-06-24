@@ -21,8 +21,8 @@ importers:
         specifier: ^3.5.17
         version: 3.5.17
       vuetify:
-        specifier: ^3.8.9
-        version: 3.8.9(vite-plugin-vuetify@1.0.2)(vue@3.5.17)
+        specifier: ^3.8.11
+        version: 3.8.11(vite-plugin-vuetify@1.0.2)(vue@3.5.17)
       webfontloader:
         specifier: ^1.0.0
         version: 1.6.28
@@ -35,7 +35,7 @@ importers:
         version: 4.5.14(@types/node@24.0.3)(terser@5.43.1)
       vite-plugin-vuetify:
         specifier: ^1.0.2
-        version: 1.0.2(vite@4.5.14(@types/node@24.0.3)(terser@5.43.1))(vue@3.5.17)(vuetify@3.8.9)
+        version: 1.0.2(vite@4.5.14(@types/node@24.0.3)(terser@5.43.1))(vue@3.5.17)(vuetify@3.8.11)
       vue-cli-plugin-vuetify:
         specifier: ~2.5.8
         version: 2.5.8(vue@3.5.17)(webpack@5.86.0)
@@ -378,8 +378,8 @@ packages:
   buffer-from@1.1.2:
     resolution: {integrity: sha512-E+XQCRwSbaaiChtv6k6Dwgc+bx+Bs6vuKJHHl5kox/BaKbhiXzqQOwK4cO22yElGp2OCmjwVhT3HmxgyPGnJfQ==}
 
-  caniuse-lite@1.0.30001723:
-    resolution: {integrity: sha512-1R/elMjtehrFejxwmexeXAtae5UO9iSyFn6G/I806CYC/BLyyBk1EPhrKBkWhy6wM6Xnm47dSJQec+tLJ39WHw==}
+  caniuse-lite@1.0.30001724:
+    resolution: {integrity: sha512-WqJo7p0TbHDOythNTqYujmaJTvtYRZrjpP8TCvH6Vb9CYJerJNKamKzIWOM4BkQatWj9H2lYulpdAQNBe7QhNA==}
 
   chrome-trace-event@1.0.4:
     resolution: {integrity: sha512-rNjApaLzuwaOTjCiT8lSDdGN1APCiqkChLMJxJPWLunPAt5fy8xgU9/jNOchV84wfIxrA0lRQB7oCT8jrn/wrQ==}
@@ -406,15 +406,15 @@ packages:
       supports-color:
         optional: true
 
-  electron-to-chromium@1.5.170:
-    resolution: {integrity: sha512-GP+M7aeluQo9uAyiTCxgIj/j+PrWhMlY7LFVj8prlsPljd0Fdg9AprlfUi+OCSFWy9Y5/2D/Jrj9HS8Z4rpKWA==}
+  electron-to-chromium@1.5.173:
+    resolution: {integrity: sha512-2bFhXP2zqSfQHugjqJIDFVwa+qIxyNApenmXTp9EjaKtdPrES5Qcn9/aSFy/NaP2E+fWG/zxKu/LBvY36p5VNQ==}
 
   emojis-list@3.0.0:
     resolution: {integrity: sha512-/kyM18EfinwXZbno9FyUGeFh87KC8HRQBQGildHZbEuRyWFOmv1U10o9BBp8XVZDVNNuQKyIGIu5ZYAAXJ0V2Q==}
     engines: {node: '>= 4'}
 
-  enhanced-resolve@5.18.1:
-    resolution: {integrity: sha512-ZSW3ma5GkcQBIpwZTSRAI8N71Uuwgs93IezB7mf7R60tC8ZbJideoDNKjHn2O9KIlx6rkGTTEk1xUCK2E1Y2Yg==}
+  enhanced-resolve@5.18.2:
+    resolution: {integrity: sha512-6Jw4sE1maoRJo3q8MsSIn2onJFbLTOjY9hlx4DZXmOKvLRd1Ok2kXmAGXaafL2+ijsJZ1ClYbl/pmqr9+k4iUQ==}
     engines: {node: '>=10.13.0'}
 
   entities@4.5.0:
@@ -811,8 +811,8 @@ packages:
       typescript:
         optional: true
 
-  vuetify@3.8.9:
-    resolution: {integrity: sha512-X9kCxeqf7w5sca2Mfn4NCVsDDimi81jxKyqsZHjW0XG/rTdtwRFKttxOcv0Mmi+67ulPjDZywA7pBFK0rxoafA==}
+  vuetify@3.8.11:
+    resolution: {integrity: sha512-sF5U364CFWq/K3zhC1z90DPHDp1EL6bepKpgzfIfHN6I2BoC1qjbH+hEqozqaGETrIBK7+ShccAzZ8CHL56YZQ==}
     engines: {node: ^12.20 || >=14.13}
     peerDependencies:
       typescript: '>=4.7'
@@ -834,8 +834,8 @@ packages:
   webfontloader@1.6.28:
     resolution: {integrity: sha512-Egb0oFEga6f+nSgasH3E0M405Pzn6y3/9tOVanv/DLfa1YBIgcv90L18YyWnvXkRbIM17v5Kv6IT2N6g1x5tvQ==}
 
-  webpack-sources@3.3.2:
-    resolution: {integrity: sha512-ykKKus8lqlgXX/1WjudpIEjqsafjOTcOJqxnAbMLAu/KCsDCJ6GBtvscewvTkrn24HsnvFwrSCbenFrhtcCsAA==}
+  webpack-sources@3.3.3:
+    resolution: {integrity: sha512-yd1RBzSGanHkitROoPFd6qsrxt+oFhg/129YzheDGqeustzX0vTZJZsSsQjVQC4yzBQ56K55XU8gaNCtIzOnTg==}
     engines: {node: '>=10.13.0'}
 
   webpack@5.86.0:
@@ -1038,12 +1038,12 @@ snapshots:
 
   '@vue/shared@3.5.17': {}
 
-  '@vuetify/loader-shared@1.7.1(vue@3.5.17)(vuetify@3.8.9)':
+  '@vuetify/loader-shared@1.7.1(vue@3.5.17)(vuetify@3.8.11)':
     dependencies:
       find-cache-dir: 3.3.2
       upath: 2.0.1
       vue: 3.5.17
-      vuetify: 3.8.9(vite-plugin-vuetify@1.0.2)(vue@3.5.17)
+      vuetify: 3.8.11(vite-plugin-vuetify@1.0.2)(vue@3.5.17)
 
   '@webassemblyjs/ast@1.14.1':
     dependencies:
@@ -1169,14 +1169,14 @@ snapshots:
 
   browserslist@4.25.0:
     dependencies:
-      caniuse-lite: 1.0.30001723
-      electron-to-chromium: 1.5.170
+      caniuse-lite: 1.0.30001724
+      electron-to-chromium: 1.5.173
       node-releases: 2.0.19
       update-browserslist-db: 1.1.3(browserslist@4.25.0)
 
   buffer-from@1.1.2: {}
 
-  caniuse-lite@1.0.30001723: {}
+  caniuse-lite@1.0.30001724: {}
 
   chrome-trace-event@1.0.4: {}
 
@@ -1192,11 +1192,11 @@ snapshots:
     dependencies:
       ms: 2.1.2
 
-  electron-to-chromium@1.5.170: {}
+  electron-to-chromium@1.5.173: {}
 
   emojis-list@3.0.0: {}
 
-  enhanced-resolve@5.18.1:
+  enhanced-resolve@5.18.2:
     dependencies:
       graceful-fs: 4.2.11
       tapable: 2.2.2
@@ -1517,14 +1517,14 @@ snapshots:
     dependencies:
       punycode: 2.1.1
 
-  vite-plugin-vuetify@1.0.2(vite@4.5.14(@types/node@24.0.3)(terser@5.43.1))(vue@3.5.17)(vuetify@3.8.9):
+  vite-plugin-vuetify@1.0.2(vite@4.5.14(@types/node@24.0.3)(terser@5.43.1))(vue@3.5.17)(vuetify@3.8.11):
     dependencies:
-      '@vuetify/loader-shared': 1.7.1(vue@3.5.17)(vuetify@3.8.9)
+      '@vuetify/loader-shared': 1.7.1(vue@3.5.17)(vuetify@3.8.11)
       debug: 4.3.4
       upath: 2.0.1
       vite: 4.5.14(@types/node@24.0.3)(terser@5.43.1)
       vue: 3.5.17
-      vuetify: 3.8.9(vite-plugin-vuetify@1.0.2)(vue@3.5.17)
+      vuetify: 3.8.11(vite-plugin-vuetify@1.0.2)(vue@3.5.17)
     transitivePeerDependencies:
       - supports-color
 
@@ -1554,11 +1554,11 @@ snapshots:
       '@vue/server-renderer': 3.5.17(vue@3.5.17)
       '@vue/shared': 3.5.17
 
-  vuetify@3.8.9(vite-plugin-vuetify@1.0.2)(vue@3.5.17):
+  vuetify@3.8.11(vite-plugin-vuetify@1.0.2)(vue@3.5.17):
     dependencies:
       vue: 3.5.17
     optionalDependencies:
-      vite-plugin-vuetify: 1.0.2(vite@4.5.14(@types/node@24.0.3)(terser@5.43.1))(vue@3.5.17)(vuetify@3.8.9)
+      vite-plugin-vuetify: 1.0.2(vite@4.5.14(@types/node@24.0.3)(terser@5.43.1))(vue@3.5.17)(vuetify@3.8.11)
 
   watchpack@2.4.4:
     dependencies:
@@ -1567,7 +1567,7 @@ snapshots:
 
   webfontloader@1.6.28: {}
 
-  webpack-sources@3.3.2: {}
+  webpack-sources@3.3.3: {}
 
   webpack@5.86.0:
     dependencies:
@@ -1580,7 +1580,7 @@ snapshots:
       acorn-import-assertions: 1.9.0(acorn@8.15.0)
       browserslist: 4.25.0
       chrome-trace-event: 1.0.4
-      enhanced-resolve: 5.18.1
+      enhanced-resolve: 5.18.2
       es-module-lexer: 1.7.0
       eslint-scope: 5.1.1
       events: 3.3.0
@@ -1594,7 +1594,7 @@ snapshots:
       tapable: 2.2.2
       terser-webpack-plugin: 5.3.14(webpack@5.86.0)
       watchpack: 2.4.4
-      webpack-sources: 3.3.2
+      webpack-sources: 3.3.3
     transitivePeerDependencies:
       - '@swc/core'
       - esbuild
